@@ -1,0 +1,19 @@
+{
+  "pack": {
+    "pack_format": 64,
+    "supported_formats": [
+        64,
+        69
+    ],
+    "min_format": 64,
+    "max_format": 69,
+    "description": [
+      {
+        "text": "Pixelburen"
+      },
+      {
+        "text": "\nCreated by EquintaZ"
+      }
+    ]
+  }
+}
