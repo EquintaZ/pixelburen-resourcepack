@@ -3,10 +3,10 @@
     "pack_format": 64,
     "supported_formats": [
         64,
-        69
+        76
     ],
-    "min_format": 64,
-    "max_format": 69,
+    "min_format": [64, 0],
+    "max_format": [76, 0],
     "description": [
       {
         "text": "Pixelburen"
