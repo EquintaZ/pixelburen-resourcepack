@@ -1,0 +1,89 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "0": "pixelburen:item/sunglasses/meme_sunglasses",
+    "particle": "pixelburen:item/sunglasses/meme_sunglasses"
+  },
+  "elements": [
+    {
+      "from": [3, 3.2, 3],
+      "to": [13, 5.3, 3],
+      "faces": {
+        "north": {"uv": [0, 0, 10, 2], "texture": "#0"},
+        "east": {"uv": [0, 0, 0, 2], "texture": "#0"},
+        "south": {"uv": [0, 2, 10, 4], "texture": "#0"},
+        "west": {"uv": [0, 0, 0, 2], "texture": "#0"},
+        "up": {"uv": [10, 0, 0, 0], "texture": "#0"},
+        "down": {"uv": [10, 0, 0, 0], "texture": "#0"}
+      }
+    },
+    {
+      "from": [3, 4.3, 3],
+      "to": [3, 5.3, 9],
+      "faces": {
+        "north": {"uv": [0, 0, 0, 1], "texture": "#0"},
+        "east": {"uv": [0, 4, 6, 5], "texture": "#0"},
+        "south": {"uv": [0, 0, 0, 1], "texture": "#0"},
+        "west": {"uv": [0, 5, 6, 6], "texture": "#0"},
+        "up": {"uv": [0, 6, 0, 0], "texture": "#0"},
+        "down": {"uv": [0, 0, 0, 6], "texture": "#0"}
+      }
+    },
+    {
+      "from": [13, 4.3, 3],
+      "to": [13, 5.3, 9],
+      "faces": {
+        "north": {"uv": [0, 0, 0, 1], "texture": "#0"},
+        "east": {"uv": [0, 6, 6, 7], "texture": "#0"},
+        "south": {"uv": [0, 0, 0, 1], "texture": "#0"},
+        "west": {"uv": [6, 4, 12, 5], "texture": "#0"},
+        "up": {"uv": [0, 6, 0, 0], "texture": "#0"},
+        "down": {"uv": [0, 0, 0, 6], "texture": "#0"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [96.79, 38.71, -9.42],
+      "translation": [1, -0.25, 2],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [96.79, 38.71, -9.42],
+      "translation": [1, -0.25, 2],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "firstperson_righthand": {
+      "rotation": [-7.45, 26.18, 1.22],
+      "translation": [-2.5, 5.5, 4.5],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-7.45, 26.18, 1.22],
+      "translation": [-2.5, 5.5, 4.5],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "ground": {
+      "translation": [0, 2.5, 0]
+    },
+    "gui": {
+      "rotation": [-157.39, 34.61, -176.21],
+      "translation": [1, 4.25, 0]
+    },
+    "head": {
+      "translation": [0, 5, 1],
+      "scale": [1.34172, 1.55, 1.55]
+    },
+    "fixed": {
+      "translation": [0, 4, 4.25]
+    }
+  },
+  "groups": [
+    {
+      "name": "group",
+      "origin": [0, 0, 0],
+      "color": 0,
+      "children": [0, 1, 2]
+    }
+  ]
+}
