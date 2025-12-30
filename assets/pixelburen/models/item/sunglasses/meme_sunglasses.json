@@ -1,5 +1,4 @@
 {
-  "parent": "minecraft:item/generated",
   "textures": {
     "0": "pixelburen:item/sunglasses/meme_sunglasses",
     "particle": "pixelburen:item/sunglasses/meme_sunglasses"
