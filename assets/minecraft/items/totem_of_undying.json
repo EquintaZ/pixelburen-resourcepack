@@ -5,24 +5,87 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
+        "when": "Alice handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/aliceblackrose"
+        }
+      },
+      {
+        "when": "CPT handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/cpt_red_herring"
+        }
+      },
+      {
+        "when": "Epic handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/epichaddock310"
+        }
+      },
+      {
+        "when": "EZ handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/equintaz"
+        }
+      },
+      {
+        "when": "Glaleria handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/glaleria"
+        }
+      },
+      {
+        "when": "Harlo handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/harlohaker"
+        }
+      },
+      {
+        "when": "Kiesje handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/kiesje"
+        }
+      },
+      {
         "when": "KB handpop",
         "model": {
           "type": "minecraft:model",
-          "model": "pixelburen:item/totem_of_undying/kb_handpop"
+          "model": "pixelburen:item/totem_of_undying/meneerkb"
         }
       },
       {
         "when": "MeerKB handpop",
         "model": {
           "type": "minecraft:model",
-          "model": "pixelburen:item/totem_of_undying/kb_handpop"
+          "model": "pixelburen:item/totem_of_undying/meneerkb"
         }
       },
       {
         "when": "MeneerKB handpop",
         "model": {
           "type": "minecraft:model",
-          "model": "pixelburen:item/totem_of_undying/kb_handpop"
+          "model": "pixelburen:item/totem_of_undying/meneerkb"
+        }
+      },
+      {
+        "when": "Nemrah handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/nemrah_gelre"
+        }
+      },
+      {
+        "when": "Rexxnar handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/rexxnar"
         }
       }
     ],
