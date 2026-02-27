@@ -12,6 +12,20 @@
         }
       },
       {
+        "when": "Bever handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/karatebever"
+        }
+      },
+      {
+        "when": "CJ handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/clifford_james"
+        }
+      },
+      {
         "when": "CPT handpop",
         "model": {
           "type": "minecraft:model",
@@ -51,6 +65,13 @@
         "model": {
           "type": "minecraft:model",
           "model": "pixelburen:item/totem_of_undying/kiesje"
+        }
+      },
+      {
+        "when": "KarateBever handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/karatebever"
         }
       },
       {
