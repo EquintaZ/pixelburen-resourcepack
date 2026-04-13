@@ -19,6 +19,13 @@
         }
       },
       {
+        "when": "Char handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/korfbal_char"
+        }
+      },
+      {
         "when": "CJ handpop",
         "model": {
           "type": "minecraft:model",
@@ -47,6 +54,20 @@
         }
       },
       {
+        "when": "Floki Mahandpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/floki_mahoon"
+        }
+      },
+      {
+        "when": "Floki handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/floki_mahoon"
+        }
+      },
+      {
         "when": "Glaleria handpop",
         "model": {
           "type": "minecraft:model",
@@ -61,10 +82,10 @@
         }
       },
       {
-        "when": "Kiesje handpop",
+        "when": "Hector handpop",
         "model": {
           "type": "minecraft:model",
-          "model": "pixelburen:item/totem_of_undying/kiesje"
+          "model": "pixelburen:item/totem_of_undying/hector_escorpion"
         }
       },
       {
@@ -86,6 +107,13 @@
         "model": {
           "type": "minecraft:model",
           "model": "pixelburen:item/totem_of_undying/meneerkb"
+        }
+      },
+      {
+        "when": "Kiesje handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/kiesje"
         }
       },
       {
