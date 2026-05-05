@@ -68,6 +68,13 @@
         }
       },
       {
+        "when": "GB handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/gamerbaas321"
+        }
+      },
+      {
         "when": "Glaleria handpop",
         "model": {
           "type": "minecraft:model",
@@ -100,6 +107,13 @@
         "model": {
           "type": "minecraft:model",
           "model": "pixelburen:item/totem_of_undying/meneerkb"
+        }
+      },
+      {
+        "when": "Lillytje handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/lillytje2000"
         }
       },
       {
