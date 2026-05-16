@@ -5,6 +5,20 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
+        "when": "Handpoep",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/poop"
+        }
+      },
+      {
+        "when": "Lollipop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/lollipop"
+        }
+      },
+      {
         "when": "Alice handpop",
         "model": {
           "type": "minecraft:model",
