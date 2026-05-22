@@ -124,6 +124,13 @@
         }
       },
       {
+        "when": "KBoef handpop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "pixelburen:item/totem_of_undying/meneerkb-rascal"
+        }
+      },
+      {
         "when": "Lillytje handpop",
         "model": {
           "type": "minecraft:model",
