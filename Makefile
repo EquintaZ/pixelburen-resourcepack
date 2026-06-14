@@ -3,13 +3,21 @@ package:
 	rm -f Pixelburen.zip
 	zip -r Pixelburen.zip assets/* pack.mcmeta pack.png
 
-package-for-pixelburen: clean
-	mkdir -p .pack-merge .pack-dnt .pack-sparkles
-	wget https://cdn.modrinth.com/data/tpehi7ww/versions/HLvm1mCw/Dungeons%20and%20Taverns%20v5.1.0.zip -O .pack-dnt/DNT.zip
+package-for-pixelburen: clean download-and-extract-dependent-packs package-with-dependent-packs
+
+download-and-extract-dependent-packs:
+	mkdir -p .pack-dnt .pack-backpack .pack-sparkles
+	wget "https://cdn.modrinth.com/data/tpehi7ww/versions/HLvm1mCw/Dungeons%20and%20Taverns%20v5.1.0.zip" -O .pack-dnt/DNT.zip
 	cd .pack-dnt && unzip -o DNT.zip && rm -R data DNT.zip
-	cp -R .pack-dnt/* .pack-merge/
-	wget https://cdn.modrinth.com/data/HfNmMQ9E/versions/S8Oe9FyR/Sparkles_1.21.x_v1.1.6.zip -O .pack-sparkles/Sparkles.zip
+	wget "https://www.dropbox.com/scl/fi/rtx4hkfaxh3fzl2meg7ju/BackpackPlus_resourcepack_1_19_x-beyond.zip?rlkey=jp3jxtn4qdgzyq7yqqk1bg98p&st=tooq0mtd&dl=1" -O .pack-backpack/BackpackPlus.zip
+	cd .pack-backpack && unzip -o BackpackPlus.zip && rm BackpackPlus.zip
+	wget "https://cdn.modrinth.com/data/HfNmMQ9E/versions/S8Oe9FyR/Sparkles_1.21.x_v1.1.6.zip" -O .pack-sparkles/Sparkles.zip
 	cd .pack-sparkles && unzip -o Sparkles.zip && rm Sparkles.zip
+
+package-with-dependent-packs: clean-merge
+	mkdir -p .pack-merge
+	cp -R .pack-dnt/* .pack-merge/
+	cp -R .pack-backpack/* .pack-merge/
 	cp -R .pack-sparkles/* .pack-merge/
 	cp -R assets .pack-merge/
 	cp pack.png .pack-merge/
@@ -18,5 +26,8 @@ package-for-pixelburen: clean
 	cd .pack-merge && zip -r Pixelburen_$$(date +%Y-%m-%d).zip * && mv Pixelburen_$$(date +%Y-%m-%d).zip ../
 	sha1sum Pixelburen_$$(date +%Y-%m-%d).zip
 
-clean:
-	rm -Rf .pack-merge .pack-dnt .pack-sparkles
+clean: clean-merge
+	rm -Rf .pack-dnt .pack-backpack .pack-sparkles
+
+clean-merge:
+	rm -Rf .pack-merge
