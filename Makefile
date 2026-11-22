@@ -7,11 +7,11 @@ package-for-pixelburen: clean download-and-extract-dependent-packs package-with-
 
 download-and-extract-dependent-packs:
 	mkdir -p .pack-dnt .pack-backpack .pack-sparkles
-	wget "https://cdn.modrinth.com/data/tpehi7ww/versions/QcyHA7j1/Dungeons%20and%20Taverns%20v5.3.0.zip" -O .pack-dnt/DNT.zip
+	wget "https://cdn.modrinth.com/data/tpehi7ww/versions/B1bgkN74/Dungeons%20and%20Taverns%20v6.1.0.zip" -O .pack-dnt/DNT.zip
 	cd .pack-dnt && unzip -o DNT.zip && rm -R data DNT.zip
 	wget "https://www.dropbox.com/scl/fi/rtx4hkfaxh3fzl2meg7ju/BackpackPlus_resourcepack_1_19_x-beyond.zip?rlkey=jp3jxtn4qdgzyq7yqqk1bg98p&st=tooq0mtd&dl=1" -O .pack-backpack/BackpackPlus.zip
 	cd .pack-backpack && unzip -o BackpackPlus.zip && rm BackpackPlus.zip
-	wget "https://cdn.modrinth.com/data/HfNmMQ9E/versions/vpqshSqq/Sparkles_26.2_v1.1.10.zip" -O .pack-sparkles/Sparkles.zip
+	wget "https://cdn.modrinth.com/data/HfNmMQ9E/versions/NdrflooY/Sparkles_v1.1.12.zip" -O .pack-sparkles/Sparkles.zip
 	cd .pack-sparkles && unzip -o Sparkles.zip && rm Sparkles.zip
 
 package-with-dependent-packs: clean-merge
